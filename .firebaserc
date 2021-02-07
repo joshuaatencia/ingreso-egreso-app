@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ingeso-egreso-app": {
+      "hosting": {
+        "egresoapp": [
+          "ingeso-egreso-app"
+        ]
+      }
+    }
+  }
+}

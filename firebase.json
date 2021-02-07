@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "egresoapp",
+      "public": "dist/egresoapp",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
